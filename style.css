@@ -41,5 +41,14 @@ header{
     color: var(--tex-color);
     font-size: 28px;
     font-weight: bold;
+}
 
+.logo i{
+    color: var(--main-color);
+    font-size: 32px;
+    margin-right: 5px;
+}
+
+.navegação{
+    
 }

@@ -13,7 +13,7 @@
     --main-color: #34e7f8;
     --other-color: #fcfcfc;
     --h1-font: 4rem;
-    --h3-font: 1rem;
+    --p-font: 1rem;
 }
 
 body {
@@ -50,5 +50,40 @@ header{
 }
 
 .navegação{
-    
+    display: flex;
+
+}
+
+.navegação a{
+    color: var(--other-color);
+    font-size: var(--p-font);
+    font-weight: 500;
+    margin: 0 30px;
+    transition: a .55s ease;
+
+}
+
+.navegação a:hover{
+    color: var(--main-color);
+}
+
+.header-icons{
+    display: flex;
+    align-items: center;
+}
+
+#menu{
+    font-size: 35px;
+    color: var(--tex-color);
+    z-index: 10001;
+    cursor: pointer;
+
+}
+
+.header-icons i{
+    margin-right: 25px;
+    font-size: 28px;
+    cursor: pointer;
+    transition: all .5s ease;
+
 }
